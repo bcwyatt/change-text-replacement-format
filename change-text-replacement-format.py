@@ -27,4 +27,4 @@ with open('old_text.txt','r',encoding='utf-8') as f1:
 with open('new_text.txt','w+',encoding='utf-8') as f2: 
     f2.write(new_text)
 
-print('From {}, {} phrases transferred.'.format(flow, count))
+print(f'From {flow}, {count} phrases transferred.')
